@@ -9,7 +9,7 @@ proxies:
     sni: sg01.iptr.xyz
     network: ws
     ws-opts:
-      path: "%2Ftrojan-ws"
+      path: trojan-ws
       headers:
         Host: sg01.iptr.xyz
     udp: true
