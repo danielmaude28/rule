@@ -1,0 +1,97 @@
+proxies:
+  - name: sg.serverkit.pw-ntls
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: 57b890d5-13a8-4625-80bc-337de0f020bd
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg.serverkit.pw
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/ntls
+      headers:
+        Host: sg.serverkit.pw
+    udp: true
+  - name: sg.serverkit.pw-tls-lionssh_hajllub
+    server: 104.26.7.171
+    port: 443
+    type: vmess
+    uuid: 57b890d5-13a8-4625-80bc-337de0f020bd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg.serverkit.pw
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/tls
+      headers:
+        Host: sg.serverkit.pw
+    udp: true
+  - name: opentunnel.net-taty3
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sgv-4.openv2ray.com
+    network: ws
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-taty3
+      headers:
+        Host: sgv-4.openv2ray.com
+    udp: true
+  - name: opentunnel.net-taty3 2
+    server: 104.26.7.171
+    port: 443
+    type: vmess
+    uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgv-4.openv2ray.com
+    network: ws
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-taty3
+      headers:
+        Host: sgv-4.openv2ray.com
+    udp: true
+  - name: VMESS-Taty2-ws
+    server: 104.26.7.171
+    port: 80
+    type: vmess
+    uuid: eaf07a96-88ef-4c87-8283-710e620bc1b2
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: au1.v4vmess.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: au1.v4vmess.xyz
+    udp: true
+  - name: VMESS-Taty2-ws 2
+    server: 104.26.7.171
+    port: 443
+    type: vmess
+    uuid: eaf07a96-88ef-4c87-8283-710e620bc1b2
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: au1.v4vmess.xyz
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: au1.v4vmess.xyz
+    udp: true
