@@ -95,3 +95,35 @@ proxies:
       headers:
         Host: au1.v4vmess.xyz
     udp: true
+  - name: Tatty-trial_vmess_ws_tls
+    server: 104.26.7.171
+    port: 443
+    type: vmess
+    uuid: 9eea5c9f-6035-4769-b74c-0dd838b97694
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vmess-id01.gproxy.pro
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-id01.gproxy.pro
+    udp: true
+  - name: tattyy-trial_vmess_ws_tls
+    server: 104.26.7.171
+    port: 443
+    type: vmess
+    uuid: 17ae6cd9-8658-480f-9850-c90fcee6ea06
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vmess-sg02.gproxy.pro
+    network: ws
+    ws-opts:
+      path: /vmess-ws
+      headers:
+        Host: vmess-sg02.gproxy.pro
+    udp: true
